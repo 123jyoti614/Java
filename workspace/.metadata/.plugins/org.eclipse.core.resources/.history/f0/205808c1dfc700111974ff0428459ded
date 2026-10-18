@@ -1,0 +1,21 @@
+package com.oops;
+
+public class Payment {
+
+	public int balance;  //data or vAariable
+
+	public Payment(int balance) {
+		super();
+		this.balance = balance;
+	}
+	
+	public void doDebit(int _amount) {
+		//modifing the data
+		balance=balance-_amount;
+	
+	}
+	public void doCredit(int _amount) {
+		balance=balance+_amount;
+	}
+	
+}

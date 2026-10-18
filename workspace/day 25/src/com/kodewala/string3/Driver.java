@@ -1,0 +1,29 @@
+package com.kodewala.string3;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		String str="Kodewala,Academy,BTM,Banglore";
+		String[] language=str.split(",");
+		
+		for(String lang:language) {
+			System.out.println(lang);
+		}
+		
+		//contains() --checks a string contain a specific sequence
+		
+		String s="Kodewala Academy";
+		System.out.println(str.contains("Academy"));
+		
+		//startsWith() check if string start with specified prefix 
+		
+		System.out.println(str.startsWith("Kode"));
+		
+		//endsWith() --checks if string ends with a specified suffix
+		System.out.println(str.endsWith("Academy"));
+
+	}
+
+}

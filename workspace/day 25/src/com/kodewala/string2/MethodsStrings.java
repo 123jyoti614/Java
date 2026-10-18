@@ -1,0 +1,25 @@
+package com.kodewala.string2;
+
+public class MethodsStrings {
+
+	public static void main(String[] args) {
+
+
+		String str="Kodewala";
+		
+		//indexOf-- returns first occurence index of a substring
+		System.out.println(str.indexOf("w"));
+		System.out.println(str.indexOf("M"));  // returns -1 if index is not found
+		
+		// lastIndexOf-- returns the last occurence of a substring
+		System.out.println(str.lastIndexOf("a"));
+		
+		//substring-- returns the substring from the specified index to the end
+		System.out.println(str.substring(3));
+		
+		//substring(start,end)-- returns the substring from beginindex to endindex
+		System.out.println(str.substring(0, 5));
+
+	}
+
+}

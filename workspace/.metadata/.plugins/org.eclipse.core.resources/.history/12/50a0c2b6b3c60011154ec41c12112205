@@ -1,0 +1,14 @@
+package com.jyoti.objects;
+
+public class User {
+	
+	String userName;
+	String userId;
+	String mobileNumber;
+	
+	//static block will executed just after the class loading
+	static {
+		System.out.println("I am in static init block");
+	}
+
+}

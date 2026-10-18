@@ -1,0 +1,16 @@
+package com.kodewala.string2;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		String str="Kodewala";
+		
+		//toUpperCase() -- convert all character to uppercase
+		
+		System.out.println(str.toUpperCase());
+
+	}
+
+}

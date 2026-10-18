@@ -1,0 +1,26 @@
+package com.oops.inheritance1;
+class Account{
+	public void whichOne() {
+		System.out.println("Kodewala");
+	}
+}
+class SavingAccount extends Account{
+	public void what() {
+		System.out.println("Academy");
+	}
+}
+
+public class MultiLevelInheritance extends SavingAccount {
+	public void where() {
+		System.out.println("Banglore");
+	}
+
+	public static void main(String[] args) {
+		MultiLevelInheritance premiumSavingAcc= new MultiLevelInheritance();
+		premiumSavingAcc.whichOne();
+		premiumSavingAcc.what();
+		premiumSavingAcc.where();
+
+	}
+
+}

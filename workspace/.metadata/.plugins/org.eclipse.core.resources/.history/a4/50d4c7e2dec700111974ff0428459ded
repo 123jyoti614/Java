@@ -1,0 +1,9 @@
+package com.oops;
+
+public class Payment {
+
+	public int amount;  //data or vAariable
+	
+	
+	
+}

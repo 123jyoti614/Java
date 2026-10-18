@@ -1,0 +1,5 @@
+package com.hotstar.user;
+
+public class User {
+
+}

@@ -1,0 +1,15 @@
+package com.kodewala.string2;
+
+public class MethodsStrings {
+
+	public static void main(String[] args) {
+
+
+		String str="Kodewala";
+		
+		//indexOf-- returns first occurence index of a substring
+		System.out.println(str.indexOf(w));
+
+	}
+
+}

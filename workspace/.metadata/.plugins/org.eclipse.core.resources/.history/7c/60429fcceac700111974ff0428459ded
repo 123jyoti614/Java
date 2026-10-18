@@ -1,0 +1,26 @@
+package com.task.oops;
+
+import java.io.ObjectInputStream.GetField;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		//Task-  Program to manage fund transfer
+		/**
+		 * attributr-- account no. , accoumt holder name,balance
+		 * requirment
+		 * 1.user should be able to transfer the fund
+		 * 2. other classes should not able to modify the data directly
+		 * 3. other classes should be able to read the balance
+		 * 4.only +ve amount transaction allowed
+		 * 5. transaction amount should be less than or equal to current balance
+		 * 6. class should be well encapsulated
+		 */
+		FundTransfer fundTransfer= new FundTransfer(30000, "2344938", "Jyoti");
+		System.out.println(fundTransfer.getBalance());
+
+	}
+
+}

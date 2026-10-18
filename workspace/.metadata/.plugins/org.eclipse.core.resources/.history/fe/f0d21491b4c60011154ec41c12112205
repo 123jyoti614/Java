@@ -1,0 +1,16 @@
+package com.jyoti.objects;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		System.out.println("main method start  ");
+		
+		User u1=new User("jyoti","123jyoti","12234568");
+		
+		System.out.println("main method end");
+
+	}
+
+}

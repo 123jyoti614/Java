@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.google.Sample.HelloWorld"/>
+    <fullyQualifiedTypeName name="com.google.constructors.AccountHolder"/>
+    <fullyQualifiedTypeName name="com.google.day_15.constructors.ElectronicProduct"/>
+    <fullyQualifiedTypeName name="com.google.control.flow.Booking"/>
+    <fullyQualifiedTypeName name="com.google.control.flow1.TripPlanner"/>
+    <fullyQualifiedTypeName name="com.google.control.flow2.MmtDiscount"/>
+    <fullyQualifiedTypeName name="com.google.control.flow3.EvenOdd"/>
+    <fullyQualifiedTypeName name="com.google.control.flow4.CalculateShipping"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.paytm.arrays.User"/>
+    <fullyQualifiedTypeName name="com.paytm.arrays1.SbiAccountUser"/>
+    <fullyQualifiedTypeName name="com.google.constructors2.ConstructorChaningSameClass"/>
+    <fullyQualifiedTypeName name="com.google.constructors2.Employee"/>
+    <fullyQualifiedTypeName name="com.phonepe.contol.flow2.Driver"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.phonepe.contol.flow2.MonthName"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.jyoti.objects1.AccountMgmt"/>
+    <fullyQualifiedTypeName name="com.task.oops.FundTransfer"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="javax.management.openmbean.OpenDataException"/>
+    <fullyQualifiedTypeName name="com.oops.inheritance.Account"/>
+    <fullyQualifiedTypeName name="com.oops.inheritance.SrCitizenAcc"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.oops.inheritance.MultiLevelInheritance"/>
+    <fullyQualifiedTypeName name="com.oops.inheritance.SavingAccount"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package com.oops.inheritance;
+
+class Account{
+	double balance;
+	//constructor
+	public Account(double balance) {
+		super();
+		this.balance = balance;
+	}
+	
+		
+}
+

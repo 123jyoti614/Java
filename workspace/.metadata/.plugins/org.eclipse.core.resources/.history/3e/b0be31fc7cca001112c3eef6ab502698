@@ -1,0 +1,32 @@
+package com.oops.inheritance;
+
+class Account{
+	
+	public void openAccount() {
+		System.out.println("Acc Opened");
+	}
+}
+class SavingAcc extends Account{
+	
+	public void openAcc() {
+		System.out.println("saving acc");
+	}
+}
+class SrCitizenAcc extends SavingAcc{
+	public void openAcc() {
+		System.out.println("srcitizen acc");
+	}
+}
+class PensionAcc extends SrCitizenAcc{
+	public void openAcc() {
+		System.out.println("pension acc");
+	}
+}
+
+public class MultiClassInheritance {
+
+	public static void main(String[] args) {
+
+	}
+
+}

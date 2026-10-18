@@ -1,0 +1,15 @@
+package com.hotstar.user;
+
+public class Driver {
+
+	public static void main(String[] args) {
+
+
+		for(int i=0;i<1000;i++) {
+			User u1= new User("123sdf","Jyot","32894735");
+			System.out.println(User.liveUserCount);
+		}
+
+	}
+
+}

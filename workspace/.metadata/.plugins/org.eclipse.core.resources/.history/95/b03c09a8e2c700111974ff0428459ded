@@ -1,0 +1,26 @@
+package com.oops;
+
+//this class is not well encapsulated
+public class Payment {
+
+	private int balance;  //data or vAariable
+
+	public Payment(int balance) {
+		super();
+		this.balance = balance;
+	}
+	
+	public void doDebit(int _amount) {
+		//modifing the data
+		balance=balance-_amount;
+	
+	}
+	public void doCredit(int _amount) {
+		//modifing the data
+		balance=balance+_amount;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	
+}

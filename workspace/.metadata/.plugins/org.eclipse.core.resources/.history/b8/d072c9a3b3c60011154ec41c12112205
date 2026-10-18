@@ -1,0 +1,5 @@
+package com.jyoti.objects;
+
+public class User {
+
+}

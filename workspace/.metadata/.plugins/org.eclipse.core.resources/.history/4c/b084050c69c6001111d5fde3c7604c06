@@ -1,0 +1,13 @@
+package com.jyoti.String;
+
+public class StringContains {
+
+	public static void main(String[] args) {
+
+
+		String str="Jyoti chauhan";
+		System.out.println(str.contains("Jyoti"));
+
+	}
+
+}

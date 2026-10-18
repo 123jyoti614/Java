@@ -1,0 +1,36 @@
+package com.task.oops;
+
+public class FundTransfer {
+
+	private int balance;
+	private String accNumber;
+	private String accHolderName;
+
+	public FundTransfer(int balance, String accNumber, String accHolderName) {
+		super();
+		this.balance = balance;
+		this.accNumber = accNumber;
+		this.accHolderName = accHolderName;
+	}
+
+	public void doCredit(int _amount) {
+		if (_amount > 0) {
+			balance = balance + _amount;
+			System.out.println("Deposited " + _amount);
+		} else {
+			System.out.println("Invalid amount ");
+		}
+	}
+
+	public void doDebit(int _amount) {
+		if (_amount > 0 && _amount < balance) {
+			balance = balance - _amount;
+			System.out.println("Withdrawn " + _amount);
+		}
+	}
+
+	public int getBalance() {
+		return balance;
+	}
+
+}
